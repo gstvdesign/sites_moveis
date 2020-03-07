@@ -1,0 +1,36 @@
+---
+title: Benefi
+layout: default
+---
+
+<div class="promess">
+	<div itemscope itemtype="https://schema.org/Service" class="promess-text">
+		<h1>A gente começa pelo básico:</h1>
+		
+		<ol>
+			<li>Mantém site, intagram e redes sociais <strong>sempre atualizados</strong>; </li>
+			<li>Cria um <strong>catálogo que chama atenção</strong> dentro da loja;</li> 
+			<li>A gente avisa <strong>clientes e representantes</strong> sobre lançamentos e novidades.</li>
+		</ol>
+	</div>
+	<img src="{{site.img}}phone.png" alt="">
+</div>
+
+
+<div class="monthly">
+	{% for post in site.posts  %}
+	{% if post.type == index %}
+		<p><a href="{{post.url}}"><strong>{{post.title}}</strong></a></p>
+	{% endif %}
+	{% endfor %}
+</div>
+
+<div class="features">
+	{% for feature in site.data.features %}
+		<div class="features-item">
+			<img src="../assets/img/{{ feature.img }}" alt="">
+			<h2>{{ feature.title }}</h2>
+			<p>{{ feature.def }}</p>
+		</div>
+	{% endfor %}
+</div>
