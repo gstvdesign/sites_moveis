@@ -1,0 +1,15 @@
+title: Benefi
+description: >
+  Alcançando mais pessoas gastando menos!
+valueprop: Eu ajudo empresas de móveis a facilitar suas vendas melhorando seu site, catálogo e redes sociais.
+
+
+baseurl: "" 
+url: "https://benefidesign.netlify.com" 
+
+img: "../assets/img/"
+
+permalink: pretty
+
+# Build settings
+markdown: kramdown

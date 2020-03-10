@@ -7,21 +7,23 @@ layout: default
 	<div itemscope itemtype="https://schema.org/Service" class="promess-text">
 		<h1>A gente começa pelo básico:</h1>
 		
-		<ol>
-			<li>Mantém site, intagram e redes sociais <strong>sempre atualizados</strong>; </li>
-			<li>Cria um <strong>catálogo que chama atenção</strong> dentro da loja;</li> 
-			<li>A gente avisa <strong>clientes e representantes</strong> sobre lançamentos e novidades.</li>
-		</ol>
+		<p class="promess-text_item">Mantém site, catálogo, intagram e redes sociais sempre atualizados;</p>
+		<p class="promess-text_item">Cria um catálogo que chama atenção dentro da loja;</p>
+		<p class="promess-text_item">A gente avisa clientes e representantes sobre lançamentos e novidades.</p>
+
+		<p>Meu obje</p>
 	</div>
-	<img src="{{site.img}}phone.png" alt="">
 </div>
 
 
 <div class="monthly">
-	{% for post in site.posts  %}
-	{% if post.type == index %}
-		<p><a href="{{post.url}}"><strong>{{post.title}}</strong></a></p>
-	{% endif %}
+	<h1>Ideias e oportunidades para empresas de móveis</h1>
+	{% for post in site.posts limit:2  %}
+	<div class="montlhy-item">
+		<h1><a href="{{post.url}}">{{post.title}}</a></h1>
+		<p>{{post.tease}}</p>
+		<p><a href="{{post.url}}"><i>Continuar lendo…</i></a></p>
+	</div>
 	{% endfor %}
 </div>
 

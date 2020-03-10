@@ -1,6 +1,7 @@
 ---
 title: Como usar o Instagram?
 layout: post
+tease: Quantos posts por semana devo fazer? Sobre qual assunto? Ter um instagram dá trabalho mas essa é uma pergunta que especialistas, marketeiros e empresários se fazem. Nesse texto eu elaboro 3 formas de cuidar do seu instagram baseado nos objetivos do seu negócio.
 ---
 
 Uma pergunta que eu me faço é quantos posts são necessários? Será que a gente posta todo dia? Posta toda semana? Ou posta só quando a gente tem algo pra falar?

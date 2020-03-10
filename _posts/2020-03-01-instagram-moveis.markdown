@@ -1,6 +1,7 @@
 ---
 title: Porque estar no Instagram?
 layout: post
+tease: Todo mundo está no Instagram. Será que sua empresa deveria estar também? As redes sociais mudaram o mundo e mudanças geram oportunidades.
 ---
 
 Regra máxima da publicidade: Quem não é visto não é lembrado. Eu não gosto muito do clichê mas é fácil se deixar levar pelos afazeres do dia-a-dia e não divulgar seus produtos.
