@@ -5,13 +5,20 @@ layout: default
 
 <div class="promess">
 	<div itemscope itemtype="https://schema.org/Service" class="promess-text">
-		<h1>A gente começa pelo básico:</h1>
-		
-		<p class="promess-text_item">Mantém site, catálogo, intagram e redes sociais sempre atualizados;</p>
-		<p class="promess-text_item">Cria um catálogo que chama atenção dentro da loja;</p>
-		<p class="promess-text_item">A gente avisa clientes e representantes sobre lançamentos e novidades.</p>
+		<h1 class="promess-title">Fazer o básico já dá muito trabalho:</h1>
+		<span class="promess-text_call">Always up to date!</span>
+		<p class="promess-text_item">Manter site, catálogo, intagram e redes sociais sempre atualizados;</p>
+		<span class="promess-text_call">Show up!</span>
+		<p class="promess-text_item">Criar um catálogo que chama atenção dentro da loja;</p>
+		<span class="promess-text_call">Promote!</span>
+		<p class="promess-text_item">Avisar clientes e representantes sobre lançamentos e novidades.</p>
 
-		<p>Meu obje</p>
+		<p>Gráficas, estúdios de fotografia, agências de publicidade e marketing estão mais preocupados em vender seu próprio serviço. Seus serviços não são especializados  para a indústria moveleira. Como resultado esses fornecedores não estão preparados para prover um serviço que ajude sua empresa a ter resultados.</p>
+
+		<p>Meu primeiro cliente foi uma site de móveis. Crescendo em São Bento do Sul, SC, como filho de designer de móveis aprendi na prática a dinâmica para vender móveis.</p>
+
+		<p>Tenho como objetivo construir sites que são facilitadores de venda. A indústria moveleira ainda está engatinhando em termos de ferramentas digitais e existe um espaço de difernciação para aumentar o faturamento de forma inovadora.</p>
+
 	</div>
 </div>
 
@@ -28,11 +35,14 @@ layout: default
 </div>
 
 <div class="features">
+	<h1 class="features-title">Manifesto</h1>
 	{% for feature in site.data.features %}
 		<div class="features-item">
 			<img src="../assets/img/{{ feature.img }}" alt="">
-			<h2>{{ feature.title }}</h2>
+			<h2 class="features-item_title">{{ feature.title }}</h2>
 			<p>{{ feature.def }}</p>
 		</div>
 	{% endfor %}
 </div>
+
+{% include about.html %}

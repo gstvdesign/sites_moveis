@@ -4,7 +4,7 @@ layout: post
 tease: Todo mundo está no Instagram. Será que sua empresa deveria estar também? As redes sociais mudaram o mundo e mudanças geram oportunidades.
 ---
 
-Regra máxima da publicidade: Quem não é visto não é lembrado. Eu não gosto muito do clichê mas é fácil se deixar levar pelos afazeres do dia-a-dia e não divulgar seus produtos.
+Regra máxima da publicidade: **Quem não é visto não é lembrado.** Eu não gosto muito do clichê mas é fácil se deixar levar pelos afazeres do dia-a-dia e não divulgar seus produtos.
 
 As pessoas estão usando o Instagram dia e noite: o consumidor final, o lojista, o representante. Seus concorrentes estão no Instagram. As vezes uma fabriqueta no meio do nada consegue convencer um lojista a comprar seus produtos simplesmente aparecendo constantemente na timeline dele.
 
